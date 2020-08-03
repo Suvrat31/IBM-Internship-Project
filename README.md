@@ -4,8 +4,9 @@ Complete caching and optimization technology for Angular and Nginx server, deplo
 - [Project Video](https://drive.google.com/file/d/1qMq2cFqPfi7TleEqdVRxQ0VclQtxqrcf/view?usp=sharing)
 - [Project Setup Video](https://drive.google.com/file/d/1N_8mRyvmYU6mwzwTPcMgEFaOhWNDg3da/view)
 
-To setup NGINX server you'll require .conf files in your site-enabled and site-available directory. You can find those two files from 
-<script src="https://gist.github.com/jainayu/759ef9264178e10d7da1345f72069eff.js">here</script>
+To setup NGINX server you'll require some `.conf` files in your `site-enabled` and `site-available` directory. You can find those two files from [here](https://gist.github.com/jainayu/759ef9264178e10d7da1345f72069eff)
+
+Two build the Angular application we have used `Gulp.js`. You can find the snippet of our code below:
 
 **gulpfile.js**
 
@@ -41,6 +42,11 @@ function cleanimages(){
 exports.build = series(copyimages);
 ```
 
+*Before starting you have to install certain `dependencies`, you can simply clone this repository and install them by command given below:*
+
+```bash 
+npm install
+```
 
 **package.json**
 ```json
