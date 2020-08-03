@@ -4,6 +4,9 @@ Complete caching and optimization technology for Angular and Nginx server, deplo
 - [Project Video](https://drive.google.com/file/d/1qMq2cFqPfi7TleEqdVRxQ0VclQtxqrcf/view?usp=sharing)
 - [Project Setup Video](https://drive.google.com/file/d/1N_8mRyvmYU6mwzwTPcMgEFaOhWNDg3da/view)
 
+To setup NGINX server you'll require .conf files in your site-enabled and site-available directory. You can find those two files from 
+<script src="https://gist.github.com/jainayu/759ef9264178e10d7da1345f72069eff.js">here</script>
+
 **gulpfile.js**
 
 ```javascript
